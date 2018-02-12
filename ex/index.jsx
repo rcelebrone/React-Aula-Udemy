@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ClassComponent from './classComponent';
 
 ReactDOM.render(
-    <h1>Olá react 2!</h1>,
-    document.getElementById('app')
+    <ClassComponent label="contador" initialValue={10} />
+    ,document.getElementById('app')
 )
